@@ -24,6 +24,9 @@
     <!-- Custom styles for this template -->
     <link href="css/freelancer.css" rel="stylesheet">
 
+    <!-- skill icons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
   </head>
 
   <body id="page-top">
@@ -45,6 +48,9 @@
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
@@ -58,7 +64,7 @@
         <img class="img-fluid mb-5 d-block mx-auto" src="img/profile2.png" alt="">
         <h1 class="text-uppercase mb-0">Brian Evans</h1>
         <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Web Developer for Backend &amp; Frontend Applications</h2>
+        <h2 class="font-weight-light mb-0">Web Developer</h2>
       </div>
     </header>
 
@@ -75,19 +81,23 @@
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-search-plus fa-3x"></i>
+                  <h3>Final Transmissions</h3>
+                  <span>Location based storytelling</span>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
+              <img class="img-fluid" src="img/portfolio/finaltransmissions.jpg" alt="Final Transmissions">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class="fa fa-search-plus fa-3x"></i><br />
+                  <h3>Calculator</h3>
+                  <span>OOP Scientific Calculator</span>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+              <img class="img-fluid" src="img/portfolio/calculator.jpg" alt="Scientific Calculator">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -111,10 +121,10 @@
         <hr class="star-light mb-5">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="lead about-text">Greetings! My name is Brian Evans. I am a southern California based developer with a background in SQL Server and Python, servicing enterprise level clients. Since pursuing additional educational opportunities I have shifted my development focus to web technologies including: JavaScript, Node.js, HTML5, CSS3, jQuery, mySQL, and PHP.</p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="lead about-text">When not coding I love cooking and eating delicious food. I also play a number of instruments and enjoy playing and recording music. </p>
           </div>
         </div>
 
@@ -122,15 +132,37 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="skills">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+        <h2 class="text-center text-uppercase text-secondary mb-0">Skills</h2>
         <hr class="star-dark mb-5 pencil">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
+            <div class="text-center skill-icon">
+                <i class="devicon-amazonwebservices-plain-wordmark colored" title="Amazon Web Services"></i>
+                <i class="devicon-apache-line-wordmark colored" title="Apache"></i>
+                <i class="devicon-atom-original-wordmark colored" title="Atom"></i>
+                <i class="devicon-css3-plain-wordmark colored" title="CSS3"></i>
+                <i class="devicon-express-original-wordmark colored" title="Express"></i>
+                <i class="devicon-git-plain-wordmark colored" title="Git"></i>
+                <i class="devicon-github-plain-wordmark colored" title="GitHub"></i>
+                <i class="devicon-html5-plain-wordmark colored" title="HTML5"></i>
+                <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+                <i class="devicon-jquery-plain-wordmark colored" title="jQuery"></i>
+                <i class="devicon-linux-plain colored" title="Linux"></i>
+                <i class="devicon-mysql-plain-wordmark colored" title="MySQL"></i>
+                <i class="devicon-nodejs-plain-wordmark colored" title="NodeJs"></i>
+                <i class="devicon-photoshop-line colored" title="Adobe Photoshop"></i>
+                <i class="devicon-php-plain colored" title="PHP"></i>
+                <i class="devicon-python-plain-wordmark colored" title="Python"></i>
+                <i class="devicon-slack-plain-wordmark colored" title="Slack"></i>
+            </div>
+
+
+
+          <!-- <div class="col-lg-8 mx-auto"> -->
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+            <!-- <form name="sentMessage" id="contactForm" novalidate="novalidate">
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Name</label>
@@ -165,13 +197,13 @@
                 <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
               </div>
             </form>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer text-center">
+    <footer class="footer text-center" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-md-4 mb-5 mb-lg-0">
@@ -195,9 +227,9 @@
             </ul>
           </div>
           <div class="col-md-4">
-            <!-- <h4 class="text-uppercase mb-4">About Freelancer</h4>
-            <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
-              <a href="http://startbootstrap.com">Start Bootstrap</a>.</p> -->
+              <h4 class="text-uppercase mb-4">E-Mail</h4>
+              <p class="lead mb-0">address@place.com
+              </p>
           </div>
         </div>
       </div>
@@ -227,10 +259,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Final Transmissions</h2>
               <hr class="star-dark mb-5 puzzle">
-              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <img class="img-fluid mb-5" src="img/portfolio/finaltransmissions.jpg" alt="Final Transmissions">
+              <p class="mb-5">Final Transmissions is a mobile focused storytelling experience for Android phones. </p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -249,10 +281,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Calculator</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <img class="img-fluid mb-5" src="img/portfolio/calculator.jpg" alt="Calculator">
+              <p class="mb-5">This scientific calculator was built in HTML5, CSS3, JavaScript, and jQuery. It features functions, memory recall (for both the solution and the equation), and proper order of operation. It can be controlled via the keyboard or the mouse.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>

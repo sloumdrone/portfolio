@@ -190,6 +190,13 @@ header.masthead {
   .portfolio-modal .portfolio-modal-dialog h2 {
     font-size: 2rem; }
 
+
+.skill-icon {
+    font-size: 8rem;
+    /* margin: 0 2rem 4rem 2rem; */
+}
+
+
 @media (min-width: 768px) {
   .portfolio-modal .portfolio-modal-dialog {
     min-height: 100vh;
@@ -286,3 +293,10 @@ a {
   .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
     background-color: #1a252f;
     border-color: #1a252f; }
+
+
+
+
+.about-text {
+    text-align: justify;
+}
