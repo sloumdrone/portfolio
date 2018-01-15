@@ -267,7 +267,7 @@ form .row:first-child .floating-label-form-group {
 a {
   color: #3F88C5; }
   a:focus, a:hover, a:active {
-    color: #128f76; }
+    color: #2C3E50; }
 
 .btn {
   border-width: 2px; }
@@ -288,8 +288,8 @@ a {
   background-color: #3F88C5;
   border-color: #3F88C5; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background-color: #128f76;
-    border-color: #128f76; }
+    background-color: #2C3E50;
+    border-color: #2C3E50; }
 
 .btn-secondary {
   background-color: #2C3E50;
